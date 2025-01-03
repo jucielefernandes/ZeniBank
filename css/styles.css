@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma;
+}
+
+header {
+    background-position: center;
+    background: linear-gradient(to right, #890078 30%, #FF5800 80%);
+    color: white;
+    padding: 2rem 0;
+}
+
+.row {
+    margin: 1.25rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+}
+
+#menu-items .card {
+    margin: 1.75rem;
+}
+
+#pedido table {
+    margin-top: 1rem;
+
+}
+
+#detalhes-produto img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+#detalhes-produto {
+    text-align: center;
+}
+
+
+#detalhes-produto h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#detalhes-produto p {
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+#detalhes-produto h3 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-top: 1rem;
+}
